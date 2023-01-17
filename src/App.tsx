@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import './index.css'
+import { Login } from "./pages/login";
 
 function App() {
   return (
-    <div className="App">
-      <h1>My Cryptos</h1>
+    <div>
+      <Login />
     </div>
   );
 }
